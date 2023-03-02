@@ -4,7 +4,6 @@ from PIL import Image
 
 
 # 6.4 זכרו זכרו
-
 def decode_img(path=None):
     if not path:
         path = os.path.join(os.getcwd(), 'resource', 'code.png')

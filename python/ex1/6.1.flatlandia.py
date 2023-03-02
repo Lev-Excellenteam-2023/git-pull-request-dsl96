@@ -1,6 +1,6 @@
 # week 6 ex3 שטוחלנדיה
 import os
-def find_special_state(path=None):
+def find_special_state(path = None):
     if not path:
         path = os.path.join(os.getcwd(), 'resource', 'states.txt')
 

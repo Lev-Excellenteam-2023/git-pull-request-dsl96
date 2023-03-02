@@ -24,6 +24,7 @@ def perfect_number_generator():
         if is_perfect_num(num):
             yield num
         num = num + 1
+
 gen =perfect_number_generator()
 
 print(next(gen))

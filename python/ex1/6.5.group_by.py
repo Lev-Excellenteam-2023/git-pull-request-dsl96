@@ -10,6 +10,5 @@ def group_by(func, lst):
 
     return d
 
-
 a = group_by(len, ["23","hjk","23","hjk","l"])
 print (a)

@@ -18,5 +18,6 @@ def get_recipe_price(*, d_products , optional = None , **d_amount):
 
 
 
+
 c = get_recipe_price(d_products={'chocolate': 18, 'milk': 8}, optionals=['milk'], chocolate=300)
 print(c)

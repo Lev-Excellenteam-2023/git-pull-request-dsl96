@@ -9,4 +9,4 @@ last_names = ['cohen', 'levi', 'mizrahi']
 # התנאים הבאים צריכים להתקיים
 a1 = full_names(first_names, last_names, 10) == ['Avi Mizrahi', 'Moshe Cohen', 'Moshe Levi', 'Moshe Mizrahi', 'Yaakov Cohen', 'Yaakov Levi', 'Yaakov Mizrahi']
 a2 = full_names(first_names, last_names) == ['Avi Cohen', 'Avi Levi', 'Avi Mizrahi', 'Moshe Cohen', 'Moshe Levi', 'Moshe Mizrahi', 'Yaakov Cohen', 'Yaakov Levi', 'Yaakov Mizrahi']
-print(a1 and a2 )
+print(a1 and a2)
